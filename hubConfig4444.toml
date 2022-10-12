@@ -1,0 +1,5 @@
+[server]
+allow-cors = true
+host = "10.1.1.212"
+port = 4444
+

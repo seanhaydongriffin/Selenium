@@ -1,0 +1,45 @@
+[server]
+allow-cors = true
+host = "localhost"
+port = 5555
+grid-url = "https://localhost:4444"
+[[node.driver-configuration]]
+max-sessions = 20
+display-name = "Windows Internet Explorer 11"
+stereotype = "{\"browserName\": \"internet explorer\", \"browserVersion\": \"11\", \"platformName\": \"windows\"}"
+webdriver-executable = 'C:\Selenium\IEDriverServer.exe'
+[[node.driver-configuration]]
+max-sessions = 20
+display-name = "Windows Firefox Latest"
+stereotype = "{\"browserName\": \"firefox\", \"browserVersion\": \"latest\", \"platformName\": \"windows\"}"
+webdriver-executable = 'C:\Selenium\geckodriver.exe'
+[[node.driver-configuration]]
+max-sessions = 20
+display-name = "OSX Firefox Latest"
+stereotype = "{\"browserName\": \"firefox\", \"browserVersion\": \"latest\", \"platformName\": \"mac\", \"moz:firefoxOptions\": {\"binary\": \"/Applications/Firefox Nightly.app/Contents/MacOS/firefox-bin\"}}"
+webdriver-executable = 'C:\Selenium\chromedriver.exe'
+[[node.driver-configuration]]
+max-sessions = 20
+display-name = "Windows Chrome Latest"
+stereotype = "{\"browserName\": \"chrome\", \"browserVersion\": \"latest\", \"platformName\": \"windows\"}"
+webdriver-executable = 'C:\Selenium\chromedriver.exe'
+[[node.driver-configuration]]
+max-sessions = 20
+display-name = "OSX Chrome Latest"
+stereotype = "{\"browserName\": \"chrome\", \"browserVersion\": \"latest\", \"platformName\": \"mac\", \"goog:chromeOptions\": {\"binary\": \"/Applications/Google Chrome Dev.app/Contents/MacOS/Google Chrome Dev\"}}"
+webdriver-executable = 'C:\Selenium\chromedriver.exe'
+[[node.driver-configuration]]
+max-sessions = 20
+display-name = "Replay App Old"
+stereotype = "{\"browserName\": \"chrome\", \"browserVersion\": \"57\", \"platformName\": \"windows\", \"goog:chromeOptions\": {\"binary\": \"C:\\\\Program Files (x86)\\\\Janison Replay\\\\Janison Replay.exe\"}}"
+webdriver-executable = 'C:\Selenium\chromedriver-2.44.exe'
+[[node.driver-configuration]]
+max-sessions = 20
+display-name = "Replay App Latest"
+stereotype = "{\"browserName\": \"chrome\", \"browserVersion\": \"83\", \"platformName\": \"windows\", \"goog:chromeOptions\": {\"binary\": \"C:\\\\Program Files (x86)\\\\Janison Replay\\\\Janison Replay.exe\"}}"
+webdriver-executable = 'C:\Selenium\chromedriver-83.0.4103.39.exe'
+[[node.driver-configuration]]
+max-sessions = 20
+display-name = "Windows Edge Latest"
+stereotype = "{\"browserName\": \"MicrosoftEdge\", \"browserVersion\": \"latest\", \"platformName\": \"windows\"}"
+webdriver-executable = 'C:\Selenium\msedgedriver.exe'

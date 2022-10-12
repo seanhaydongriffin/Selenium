@@ -1,0 +1,5 @@
+[server]
+allow-cors = true
+host = "localhost"
+port = 5565
+grid-url = "https://localhost:4444"
