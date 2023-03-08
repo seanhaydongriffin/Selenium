@@ -36,6 +36,11 @@ webdriver-executable = 'C:\Selenium\chromedriver-2.44.exe'
 [[node.driver-configuration]]
 max-sessions = 20
 display-name = "Replay App Latest"
+stereotype = "{\"browserName\": \"webview2\", \"browserVersion\": \"99\", \"platformName\": \"windows\", \"goog:chromeOptions\": {\"binary\": \"C:\\\\Program Files (x86)\\\\Janison Replay\\\\Janison Replay.exe\"}}"
+webdriver-executable = 'C:\Selenium\msedgedriver-99.0.1150.46.exe'
+[[node.driver-configuration]]
+max-sessions = 20
+display-name = "Remote App Latest"
 stereotype = "{\"browserName\": \"chrome\", \"browserVersion\": \"83\", \"platformName\": \"windows\", \"goog:chromeOptions\": {\"binary\": \"C:\\\\Program Files (x86)\\\\Janison Replay\\\\Janison Replay.exe\"}}"
 webdriver-executable = 'C:\Selenium\chromedriver-83.0.4103.39.exe'
 [[node.driver-configuration]]
